@@ -45,7 +45,6 @@ const ThingApiService = {
         'authorization': `basic ${TokenService.getAuthToken()}`,
       },
       body: JSON.stringify({
-        // user_id: TokenService.getAuthToken(),
         thing_id: thingId,
         rating,
         text,
